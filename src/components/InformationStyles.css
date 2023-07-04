@@ -41,6 +41,17 @@
     box-shadow: -1px 1px 62px -18px rgba(0,0,0,0.19);
 }  
 
+h2:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(112, 214, 103);
+}
+p{
+ padding-top: 20px;
+ padding-bottom: 45px;
+ font-weight: 400;
+}
+
+
 /* //.information h2{
     font-size: 2rem;
     font-weight: bold;
