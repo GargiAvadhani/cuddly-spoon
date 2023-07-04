@@ -1,14 +1,21 @@
-.footer{
-    padding:4rem 6rem;
-    background: #000;
-    color:beige;
-    
+.footer {
+    padding: 4rem 6rem;
+    background: #dbbaba;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+
 }
 
-.top{
-    display:flex;
+.top {
+    display: flex;
     align-items: center;
-    text-align:start;
+    text-align: start;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 0.5rem;
+    }
 }

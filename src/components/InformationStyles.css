@@ -1,5 +1,6 @@
 .information {
     margin: 4rem, 6rem;
+    overflow: hidden;
 }
 
 .information h1 {

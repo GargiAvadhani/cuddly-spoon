@@ -8,6 +8,7 @@
     width: 95%;
     height: 88px;
     border-radius: 13px;
+    overflow: hidden;
 }
 
 .navbar-logo {
@@ -45,7 +46,7 @@
     transition: all 0.2s ease-in-out;
 }
 
-@media screen and (max-width : 850px) {
+@media screen and (max-width : 768px) {
     .NavbarItems{
         z-index:99;
     }

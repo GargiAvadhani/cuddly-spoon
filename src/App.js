@@ -7,12 +7,13 @@ import About from './routes/About';
 import AnimalRescue from './routes/AnimalRescue';
 import Adoptions from './routes/Adoptions';
 import Contact from './routes/Contact';
+// import ScrollIndicator from "./components/scroll"
 
 
 export default function App() {
   return (
     <div className='App'>
-
+          {/* <ScrollIndicator/> */}
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>

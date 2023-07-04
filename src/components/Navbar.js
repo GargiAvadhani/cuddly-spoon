@@ -1,11 +1,10 @@
 import React from "react";
 
-import {Component} from "react";
 import "./NavbarStyles.css";
 import { MenuItems } from "./MenuItems";
 import { Link } from "react-router-dom";
 
-class Navbar extends Component{
+class Navbar extends React.Component{
     state={clicked:false};
     handleClick=()=>{
         this.setState({clicked:!this.state.clicked})
@@ -20,7 +19,7 @@ class Navbar extends Component{
                 
               </div>
 
-              <ul className="nav-menu" >
+              <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"} >
                 {MenuItems.map((item, index)=>{
                     return ( 
                     <li key={index}>
