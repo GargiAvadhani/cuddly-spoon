@@ -4,6 +4,7 @@ import React from 'react'
 import hero from "../assets/hero.jpg"
 import Information from "../components/Information";
 import Footer from "../components/Footer";
+
 function Home() {
   return (
     <>
