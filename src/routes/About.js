@@ -2,6 +2,8 @@ import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import aboutimg from "../assets/8.jpg";
 import React from 'react'
+import Footer from "../components/Footer";
+import AboutUs from "../components/AboutUs";
 
 function About () {
   return (
@@ -14,6 +16,8 @@ function About () {
     
     btnClass="hide"
      />
+     <AboutUs/>
+     <Footer/>
      </>
   )
 }

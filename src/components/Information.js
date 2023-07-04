@@ -16,7 +16,7 @@ const Information = () => {
                 working in the interest of animal welfare throughout Pune city.</p>
 
     <h2> What do we do ?</h2>
-    <p>Our SAW team is mainly focused on ABC drives in various areas of Pune city and we successfully sterilized more than 4000 dogs
+    <p>Our Seva team is mainly focused on ABC drives in various areas of Pune city and we successfully sterilized more than 4000 dogs
          with the help of Canine Control And Care and Blue Cross Society Of Pune. ( Till Nov 21) and not to forget our volunteers 
          who are dedicated to this noble cause. We are always supported by Rescue Charitable Trust, Pets Force Pune and Animal Rescue Trust 
          for all our rescue cases, without whom it is always tough to attend thousands of injured animals. 
