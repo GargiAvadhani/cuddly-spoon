@@ -40,5 +40,13 @@
     background-color: #222;
     color : azure;
     transition: all 0.2s ease-in-out;
-                }
+}
+
+.form-container button:hover{
+    background-color: #222;
+    color : azure;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+                    }
+}
 
