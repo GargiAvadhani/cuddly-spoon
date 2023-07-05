@@ -34,4 +34,9 @@
 
 .form-container button{
     display : inline;
-}
+    border-radius: 3px;
+    background-color: #01959a;
+    color : azure;
+    transition: all 0.2s ease-in-out;
+                }
+
