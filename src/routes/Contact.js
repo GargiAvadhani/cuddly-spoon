@@ -8,6 +8,8 @@ function Contact () {
     <>
     <Navbar />
     <Hero cName="hero-mid"heroImg={aboutimg} title="Contact us"/>
+    <ContactForm/>
+    <Footer/>
     </>
   );
 }
