@@ -30,8 +30,7 @@ const Footer = () => {
       </div>
     </div>
   )
-};
-
+}
 
 
 
