@@ -1,6 +1,8 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import aboutimg from "../assets/6.jpg";
+import ContactForm from "../components/ContactForm";
+import Footer from "../components/Footer";
 import React from 'react'
 
 function Contact () {
