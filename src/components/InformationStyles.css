@@ -42,11 +42,11 @@
     box-shadow: -1px 1px 62px -18px rgba(0,0,0,0.19);
 }  
 
-h2:hover{
+.sec-text h2:hover{
     text-decoration: underline;
     text-decoration-color: rgb(112, 214, 103);
 }
-p{
+.sec-text p{
  padding-top: 20px;
  padding-bottom: 45px;
  font-weight: 400;

@@ -5,7 +5,7 @@ import React from 'react'
 function Hero(props) {
   return ( <>
     <div className={props.cName}>
-        <img alt="HeroImg" src={props.heroImg}/>
+        <img alt="HeroImg" src={props.heroImg} className="three"/>
     
     <div className="hero-text">
         <h1>{props.title}</h1>
