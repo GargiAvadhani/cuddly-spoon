@@ -34,7 +34,7 @@
 
 .form-container button{
     display : inline;
-    height: 20%;
+    height: 20px;
     border-radius: 3px;
     background-color: #01959a;
     color : azure;
