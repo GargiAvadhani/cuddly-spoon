@@ -1,4 +1,4 @@
-.aboutrescue h2{
+/* .aboutrescue h2{
     margin-top: 20px;
     
 }
@@ -17,4 +17,53 @@
     height: 550px;
     width: 700px;
     border-radius: 50%;
-}
+} */
+
+/* AnimalsStyles.css */
+.aboutrescue {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  .first,
+  .second,
+  .third,
+  .fourth {
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 600px) {
+    h2 {
+      font-size: 20px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  
+    h3 {
+      font-size: 18px;
+    }
+  }
+  
