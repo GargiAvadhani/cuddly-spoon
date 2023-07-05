@@ -22,7 +22,7 @@ const Footer = () => {
                     <i className={item.icon}></i>{item.title}
                   </Link>
                 </li>
-              );
+              )
             })};
           </ul>
 
