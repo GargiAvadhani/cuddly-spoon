@@ -1,69 +1,16 @@
-/* .aboutrescue h2{
-    margin-top: 20px;
-    
+aboutrescue {
+  /* font-size: 3rem; */
+  /* font-weight:bolder ; */
+  /* padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+   margin-top: 4.5rem; */
+   width: 45%;
 }
-
-.aboutrescue h2:hover{
-    text-decoration: underline;
-    text-decoration-color: rgb(112, 214, 103);
-}
-
-.fifth img{
-    height: 550px;
-    width: 700px;
-    border-radius: 50%;
-}
-.fourth img{
-    height: 550px;
-    width: 700px;
-    border-radius: 50%;
-} */
-
-/* AnimalsStyles.css */
-.aboutrescue {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+  .fourth img{
+      height:500px;
+      object-fit:cover;
+      border-radius:50px;
+      box-shadow: -1px 1px 62px -18px rgba(0,0,0,0.19);
   }
-  
-  h2 {
-    font-size: 24px;
-  }
-  
-  p {
-    font-size: 16px;
-  }
-  
-  .first,
-  .second,
-  .third,
-  .fourth {
-    margin-bottom: 20px;
-  }
-  
-  h3 {
-    font-size: 20px;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-  }
-  
-  /* Responsive Styles */
-  
-  @media (max-width: 600px) {
-    h2 {
-      font-size: 20px;
-    }
-  
-    p {
-      font-size: 14px;
-    }
-  
-    h3 {
-      font-size: 18px;
-    }
-  }
-  
