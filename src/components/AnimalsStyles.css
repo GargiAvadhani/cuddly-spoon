@@ -1,4 +1,4 @@
-.first {
+.first p {
   font-size: 1rem; 
   /* //font-weight:bolder ;  */
   padding-top: 30px;
@@ -9,7 +9,7 @@
   ;
 }
 
-.second{
+.second p{
    font-size: 1rem; 
    padding-top: 30px;
    display: flex;
