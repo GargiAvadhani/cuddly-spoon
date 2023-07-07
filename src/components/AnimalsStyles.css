@@ -30,6 +30,7 @@
   .fourth img{
       height:500px;
       display: flex;
+      flex-direction: row;
       float: right;
       object-fit:cover;
       border-radius:50px;
