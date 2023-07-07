@@ -1,5 +1,7 @@
 import "./HeroStyles.css";
 import React from 'react'
+
+
 //import AboutImg from "../assets/1.jpeg";
 
 function Hero(props) {

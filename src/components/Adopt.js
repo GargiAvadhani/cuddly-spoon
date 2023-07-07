@@ -4,9 +4,11 @@ import verify from "../assets/verification.svg"
 import process from "../assets/process.svg"
 import adopt from "../assets/adopt.svg"
 
+
 function Adoption() {
     return (
         <div className="adopt1">
+          
             <h1>Why adoption ?</h1>
             <p>Adopting stray animals is important because it saves lives, reduces animal homelessness, offers health and behavior benefits,
                 provides unique and diverse pets, and supports ethical practices. The "adopt don't shop" philosophy promotes giving priority
