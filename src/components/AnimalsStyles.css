@@ -33,6 +33,6 @@
       flex-direction: row;
       float: right;
       object-fit:cover;
-      border-radius:50px;
+      border-radius:100px;
       box-shadow: -1px 1px 62px -18px rgba(0,0,0,0.19);
   }
