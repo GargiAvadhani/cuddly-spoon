@@ -12,7 +12,7 @@
 .second p{
    font-size: 1rem; 
    padding-top: 30px;
-   display: flex;
+   /* display: flex; */
    align-items: justify;
    justify-content: space-between;
    margin-top: 1.2rem; 
@@ -20,7 +20,7 @@
 .third p{
   font-size: 1rem; 
   padding-top: 30px;
-  display: flex;
+  /* display: flex; */
   align-items: justify;
   justify-content: space-between;
   margin-top: 1.2rem; 
@@ -29,9 +29,10 @@
 
   .fourth img{
       height:500px;
-      display: flex;
-      flex-direction: row;
+      /* display: flex; */
+      /* flex-direction: row; */
       float: right;
+      position:relative;
       object-fit:cover;
       border-radius:100px;
       box-shadow: -1px 1px 62px -18px rgba(0,0,0,0.19);
