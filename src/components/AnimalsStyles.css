@@ -1,15 +1,16 @@
 .aboutrescue {
-  /* font-size: 3rem; */
-  /* font-weight:bolder ; */
-  /* padding-top: 30px;
+  font-size: 3rem; 
+  font-weight:bolder ; 
+  padding-top: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-   margin-top: 4.5rem; */
-   width: 45%;
+  margin-top: 4.5rem; 
+  width: 45%;
 }
   .fourth img{
       height:500px;
+      display: flex;
       object-fit:cover;
       border-radius:50px;
       box-shadow: -1px 1px 62px -18px rgba(0,0,0,0.19);
