@@ -1,4 +1,4 @@
-.aboutrescue {
+.first {
   font-size: 3rem; 
   font-weight:bolder ; 
   padding-top: 30px;
@@ -8,6 +8,8 @@
   margin-top: 4.5rem; 
   width: 45%;
 }
+
+
   .fourth img{
       height:500px;
       display: flex;
