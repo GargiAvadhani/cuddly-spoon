@@ -57,6 +57,7 @@
     background-color: #7a78cb;
     color : azure;
     border-radius: 4px;
+    box-shadow: inset;
     transition: all 0.2s ease-in-out;
                     }
 
