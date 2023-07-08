@@ -6,16 +6,16 @@ function animals() {
     return (
         <div className="aboutrescue">
             <h2>Rescue Cases</h2>
-            <p>Our skilled team of rescuers goes out of their way to help all the animals in need.
+            <p>Our skilled team of rescuers goes out of their way to help all the animals in need. <br/>
                 It is often thought that rescues are just accident cases, however, the cases go much beyond that.</p>
 
 
             <div className="fifth">
-                <img alt="img" src={pic2} />
+                <img alt="img" src={pic2} className="cat" />
             </div>
             <div className="first">
                 <h3>Human-Animal Conflicts</h3>
-                <p>s human civilization expands, wildlife habitats face encroachment and conflicts arise.
+                <p>Human civilization expands, wildlife habitats face encroachment and conflicts arise.
                     Festivals like kite flying during Sankranti pose dangers to birds and animals due to the use of hazardous glass-stringed manjas.
                     Birds often get entangled in abandoned manja strings, requiring immediate rescue and treatment. Similarly, events like weddings
                     and Diwali lead to animals being scared, injured, and displaced due to fireworks. Our dedicated team rescues and treats these distressed animals,
