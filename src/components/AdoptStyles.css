@@ -3,30 +3,34 @@
     display: flex;
     flex-direction: row;
     gap: 50px;
-    
+
 
 }
 
-.adopt1{
+.adopt1 {
     margin-top: 30px;
 }
 
-.adopt2{
+.adopt2 {
     margin-top: 10px;
 }
 
-.adopt1 h1:hover{
+.adopt1 h1:hover {
     text-decoration: underline;
     text-decoration-color: rgb(69, 220, 132);
-}
-.adopt2 h1:hover{
-    text-decoration: underline;
-    text-decoration-color: rgb(69, 220, 132);
+    transition: text-decoration-color 0.3s ease;
 }
 
-.adopt2 h3{
+.adopt2 h1:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(69, 220, 132);
+    transition: text-decoration-color 0.3s ease;
+}
+
+.adopt2 h3 {
     margin-top: 15px;
 }
+
 .container {
     display: flex;
     flex-direction: column;
@@ -38,25 +42,34 @@
     height: 120px;
     width: 150px;
     border-radius: 40%;
+    transition: transform 0.3s ease;
+
+}
+
+.icons:hover {
+    transform: scale(1.1);
 }
 
 
-.text{
+
+
+.text {
     margin-top: 20px;
     font-size: 400;
 }
 
+
 @media screen and (max-width: 768px) {
     .process {
-      flex-direction: column;
-      gap: 20px;
+        flex-direction: column;
+        gap: 20px;
     }
-  
+
     .container {
-      margin-left: 0;
+        margin-left: 0;
     }
-  
+
     .text {
-      text-align: center;
+        text-align: center;
     }
-  }
+}
