@@ -16,6 +16,12 @@ function ContactForm() {
     try {
       const response = await axios.post("http://localhost:5000/contact", user);
       console.log("form.js - ", response.data);
+      setUser({
+        name: '',
+        email: '',
+        subject: '',
+        message: '',
+      });
     } catch (error) {
       console.log(error);
     }
