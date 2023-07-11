@@ -1,77 +1,66 @@
 .information {
-    margin: 4rem, 6rem;
+    margin: 4rem 6rem;
     overflow: hidden;
-}
-
-.information h1 {
+  }
+  
+  .information h1 {
     font-size: 3rem;
-    font-weight:bolder ;
+    font-weight: bolder;
     padding-top: 30px;
-}
-
-.first-sec{
+  }
+  
+  .first-sec {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     margin-top: 4.5rem;
-
-}
-.sec-text{
+  }
+  
+  .sec-text {
     width: 45%;
-    text-align:start;
+    text-align: start;
     font-size: 1.1rem;
-    padding :10px 30px 30px 30px;
+    padding: 10px 30px 30px 30px;
     font-stretch: expanded;
     text-align: justify;
-
-}
-
-  /* .image{
-    position:relative;
-    width:70%;
-    display:flex;
-    justify-content: space-between;
-    z-index: -99; */
-
-
-.decor img{
-    
-    height:500px;
-    object-fit:cover;
-    border-radius:6px;
-    box-shadow: -1px 1px 62px -18px rgba(0,0,0,0.19);
-}  
-
-.sec-text h2:hover{
+  }
+  
+  .decor img {
+    height: 500px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+  }
+  
+  .sec-text h2:hover {
     text-decoration: underline;
     text-decoration-color: rgb(112, 214, 103);
-}
-.sec-text p{
- padding-top: 20px;
- padding-bottom: 45px;
- font-weight: 400;
-}
-
-
-/* //.information h2{
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: left;
-    text-decoration: solid;
-    padding-left: 30px; */
-
-
-/* .information p{
-    font-size:1rem;
-    font-stretch: expanded;
-    text-align: justify;
-    padding : 10px 30px 30px 30px; */
-
-@media screen  and (max-width: 850px){
+  }
+  
+  .sec-text p {
+    padding-top: 20px;
+    padding-bottom: 45px;
+    font-weight: 400;
+  }
+  
+  @media screen and (max-width: 850px) {
     .information {
-        margin:4rem,2rem;
-
+      margin: 4rem 2rem;
     }
     
-}
-    
+    .first-sec {
+      flex-direction: column;
+    }
+  
+    .sec-text {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .information {
+      margin: 2rem;
+    }
+  }
+  
